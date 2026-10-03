@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yousef ElGendy — Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Loading Intro -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">YG.DESIGN</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <div class="loader-text">LOADING CREATIVE SYSTEM...</div>
+    </div>
+    <div class="loader-grid"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Yousef ElGendy</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <!-- <a href="#posters">Posters</a> -->
+      <a href="#social">Social Media</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="#" class="nav-action">More Like This</a>
+      <a href="#" class="nav-action">Save</a>
+      <a href="#" class="nav-action">Permalink</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#posters" class="mobile-link">Posters</a>
+    <a href="#social" class="mobile-link">Social Media</a>
+    <a href="#works" class="mobile-link">Works</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          Available for Projects
+        </div>
+        <h1 class="hero-name reveal">Yousef<br/>ElGendy</h1>
+        <p class="hero-subtitle reveal">Graphic Designer</p>
+        <p class="hero-tagline reveal">
+          I design futuristic visuals, bold posters, and scroll-stopping social media content powered by creativity, strategy, and AI tools.
+        </p>
+        <div class="hero-btns reveal">
+          <a href="#social" class="btn-primary">Let the Work Talk</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num">5000+</span>
+            <span class="stat-label">design</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years Exp</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Creative</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- Chrome 3D Shape -->
+        <div class="chrome-shape">
+          <div class="chrome-orb"></div>
+          <div class="chrome-ring ring-1"></div>
+          <div class="chrome-ring ring-2"></div>
+          <div class="chrome-ring ring-3"></div>
+        </div>
+        <!-- Photo placeholder — replace src with actual photo -->
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="بورتو 3.png" alt="Yousef" class="hero-img" />
+            <div class="photo-glow"></div>
+          </div>
+        </div>
+
+        <!-- Floating Badges -->
+        <div class="float-badge badge-ps">Turn the Page to Creativity</div>
+        <div class="float-badge badge-ai">AI</div>
+        <div class="float-badge badge-tools">ps</div>
+           <div class="float-badge badge-1">Enter the Creative Side</div>
+        <div class="float-palette">
+          <div class="swatch s1"></div>
+          <div class="swatch s2"></div>
+          <div class="swatch s3"></div>
+          <div class="swatch s4"></div>
+        </div>
+        <div class="float-circle-text">
+          <svg viewBox="0 0 200 200" class="circle-svg">
+            <defs>
+              <path id="circle-path" d="M 100,100 m -70,0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" />
+            </defs>
+            <text font-size="13" fill="#C6FF00" font-family="Space Mono, monospace" letter-spacing="3">
+              <textPath href="#circle-path">Graphic Designer • Posters • Branding • AI Visuals •</textPath>
+            </text>
+          </svg>
+          <div class="circle-center">✦</div>
+        </div>
+      </div>
+
+      <!-- Vertical text -->
+      <div class="hero-vertical-text">PORTFOLIO 2026</div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>POSTERS • SOCIAL MEDIA • BRANDING • AI VISUALS • PRODUCT ADS • CREATIVE CAMPAIGNS • VISUAL IDENTITY • </span>
+      <span>POSTERS • SOCIAL MEDIA • BRANDING • AI VISUALS • PRODUCT ADS • CREATIVE CAMPAIGNS • VISUAL IDENTITY • </span>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-card reveal">
+        <div class="about-header">
+          <h2 class="hello-title">Hello!</h2>
+         
+          <!-- <div class="about-tag">Enter the Creative Side</div> -->
+        </div>
+        <div class="about-body">
+          <div class="about-bio">
+            <p>
+              I'm <strong>Yousef ElGendy</strong>, a graphic designer with a strong passion for continuous self-development, visual creativity, and modern design systems. I use design thinking, professional software, and AI tools to create bold visuals, posters, social media campaigns, and brand-focused digital content.
+            </p>
+            <div class="about-grid">
+              <div class="about-block">
+                <h4 class="block-title">Experience</h4>
+                <p>Graphic Design, Social Media Design, Posters, Branding, Creative Campaigns</p>
+              </div>
+              <div class="about-block">
+                <h4 class="block-title">Languages</h4>
+                <div class="lang-tags">
+                  <span class="lang-tag">Arabic</span>
+                  <span class="lang-tag">English</span>
+                </div>
+              </div>
+              <div class="about-block">
+                <h4 class="block-title">Software</h4>
+                <div class="software-icons">
+                  <span class="sw-icon">PS</span>
+                  <span class="sw-icon">AI</span>
+                  <span class="sw-icon">Canva</span>
+                  <!-- <span class="sw-icon">Figma</span> -->
+                  <!-- <span class="sw-icon">CapCut</span> -->
+                  <span class="sw-icon">AI Tools</span>
+                </div>
+              </div>
+              <div class="about-block">
+                <h4 class="block-title">Contact</h4>
+                <div class="contact-links">
+                  <!-- Replace with actual links -->
+                  <a href="mmm323129@email.com" class="clink" target="_blank">✉ Email</a>
+                  <a href="https://www.instagram.com/yousef_elgendy11?igsh=MWVlZ21wOG84b3hsMA==" class="clink" target="_blank">📸 Instagram</a>
+                  <a href="#" class="clink" target="_blank">🎨 Behance</a>
+                  <a href="https://wa.me/201119630800" class="clink"target="_blank">💬 WhatsApp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="about-avatar">
+              <!-- Replace with actual image -->
+              <img src="https://placehold.co/260x320/181818/C6FF00?text=M" alt="Yousef" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label reveal">SERVICES</div>
+      <h2 class="section-title reveal">What I Create</h2>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-num">01</div>
+          <div class="service-icon">🖼</div>
+          <h3>Poster Design</h3>
+          <p>Bold visual posters with strong typography, composition, and campaign mood.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-num">02</div>
+          <div class="service-icon">📱</div>
+          <h3>Social Media Design</h3>
+          <p>Scroll-stopping posts, offers, ads, carousels, and reels covers.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-num">03</div>
+          <div class="service-icon">💎</div>
+          <h3>Branding</h3>
+          <p>Visual identity, logos, color systems, typography, and brand direction.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-num">04</div>
+          <div class="service-icon">📦</div>
+          <h3>Product Advertising</h3>
+          <p>Premium product ads that make items look desirable and professional.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-num">05</div>
+          <div class="service-icon">🤖</div>
+          <h3>AI Visual Editing</h3>
+          <p>Creative AI-assisted visuals, photo manipulation, and visual enhancement.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-num">06</div>
+          <div class="service-icon">🚀</div>
+          <h3>Campaign Concepts</h3>
+          <p>Creative concepts for launches, offers, events, and seasonal campaigns.</p>
+          <div class="service-line"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Posters Showcase -->
+  <!-- <section class="showcase" id="posters">
+    <div class="container">
+      <div class="showcase-header reveal">
+        <div class="showcase-chrome-shape left-shape"></div>
+        <div class="showcase-titles">
+          <h2 class="showcase-title-green">POSTERS</h2>
+          <h2 class="showcase-title-chrome">DESIGN</h2>
+        </div>
+        <div class="showcase-chrome-shape right-shape"></div>
+      </div>
+      <div class="poster-grid"> -->
+
+        <!-- Poster Card — replace image src with actual artwork -->
+        <!-- <div class="poster-card reveal">
+          <div class="poster-img-wrap">
+            <img src="https://placehold.co/400x520/111111/C6FF00?text=Sahab+Al-Ardh" alt="Sahab Al-Ardh" />
+            <div class="poster-overlay">
+              <div class="poster-socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Behance">Be</a>
+                <a href="#" aria-label="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-cat">Arabic Typography</span>
+            <h3>Sahab Al-Ardh</h3>
+            <p>Arabic-inspired poster with bold typography and atmospheric composition.</p>
+          </div>
+        </div>
+
+        <div class="poster-card reveal">
+          <div class="poster-img-wrap">
+            <img src="https://placehold.co/400x520/111111/9DFF00?text=Cyber+Event" alt="Cyber Event Poster" />
+            <div class="poster-overlay">
+              <div class="poster-socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Behance">Be</a>
+                <a href="#" aria-label="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-cat">Event Poster</span>
+            <h3>Cyber Event Poster</h3>
+            <p>Futuristic neon poster for a creative technology event.</p>
+          </div>
+        </div>
+
+        <div class="poster-card reveal">
+          <div class="poster-img-wrap">
+            <img src="https://placehold.co/400x520/111111/C6FF00?text=Eid+Campaign" alt="Eid Campaign" />
+            <div class="poster-overlay">
+              <div class="poster-socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Behance">Be</a>
+                <a href="#" aria-label="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-cat">Seasonal Campaign</span>
+            <h3>Eid Campaign Poster</h3>
+            <p>Seasonal visual campaign with elegant typography and premium mood.</p>
+          </div>
+        </div>
+
+        <div class="poster-card reveal">
+          <div class="poster-img-wrap">
+            <img src="https://placehold.co/400x520/111111/C6FF00?text=Food+Poster" alt="Food Poster" />
+            <div class="poster-overlay">
+              <div class="poster-socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Behance">Be</a>
+                <a href="#" aria-label="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-cat">Commercial</span>
+            <h3>Food Poster Design</h3>
+            <p>Appetizing commercial poster with product-focused composition.</p>
+          </div>
+        </div>
+
+        <div class="poster-card reveal">
+          <div class="poster-img-wrap">
+            <img src="https://placehold.co/400x520/111111/9DFF00?text=Fashion+Poster" alt="Fashion Poster" />
+            <div class="poster-overlay">
+              <div class="poster-socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Behance">Be</a>
+                <a href="#" aria-label="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-cat">Fashion</span>
+            <h3>Fashion Poster</h3>
+            <p>Modern fashion visual with bold layout and model-based design.</p>
+          </div>
+        </div>
+
+        <div class="poster-card reveal">
+          <div class="poster-img-wrap">
+            <img src="https://placehold.co/400x520/111111/C6FF00?text=Music+Night" alt="Music Night" />
+            <div class="poster-overlay">
+              <div class="poster-socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Behance">Be</a>
+                <a href="#" aria-label="Dribbble">Dr</a>
+              </div>
+            </div>
+          </div>
+          <div class="poster-info">
+            <span class="poster-cat">Entertainment</span>
+            <h3>Music Night Poster</h3>
+            <p>Dark neon entertainment poster with chrome text and energetic atmosphere.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Social Media Showcase -->
+  <section class="showcase showcase-social" id="social">
+    <div class="container">
+      <div class="showcase-header reveal">
+        <div>
+          <h2 class="showcase-title-green">SOCIAL MEDIA</h2>
+          <h2 class="showcase-title-chrome">Designs</h2>
+        </div>
+        <div class="social-heart">♥</div>
+      </div>
+      <div class="neon-divider"></div>
+      <div class="social-grid">
+
+        <!-- Social Cards — replace images with actual designs -->
+       
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="welaten.jpeg" alt="Wala3tein Restaurant Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Wala3tein Restaurant Campaign</h3>
+            <span class="social-type">Food Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="4.png" alt="Sham El-Nessim Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Sham El-Nessim Campaign</h3>
+            <span class="social-type">Spring Celebration Post</span>
+            <div class="social-icons-row">
+            <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+          <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="sefol.png" alt="Foul & Taameya Restaurant Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Foul & Taameya Restaurant Campaign</h3>
+            <span class="social-type">Traditional Food Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+        
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="qaaed.png" alt="Football Match Prediction Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Football Match Prediction Campaign</h3>
+            <span class="social-type">Mobile Store Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="fast.png" alt="Hypermarket Delivery Partnership Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Hypermarket Delivery Partnership Campaign</h3>
+            <span class="social-type">Retail Collaboration Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div> 
+
+
+             <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="haisam.png" alt="Football Match Prediction Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Football Match Prediction Campaign</h3>
+            <span class="social-type">Advertising Agency Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src= "elmahala.png" alt="Dental Clinic Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>Dental Clinic Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+ 
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src= "esaal.png" />
+          
+          </div>
+          <div class="social-info">
+            <h3>hospetal Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="safwaaaa1.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>hospetal Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="zoghby.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>Medical Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="safwaa2.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>hospetal Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="safwaa3.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>hospetal Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="safwa4.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>hospetal Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="safwa5.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>hospetal Campaign</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+        
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="logo1.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>logo design for Orthopedic Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="logo2.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>logo design for Orthopedic Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="logo3.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>logo design for Orthopedic Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="logo4.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>logo design for dental Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="logo5.png"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>logo design for dental Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="logo6"  />
+          
+          </div>
+          <div class="social-info">
+            <h3>logo design for dental Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="روشتة.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>Prescription for Orthopedic Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="rosheta2.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>Prescription for Orthopedic Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+
+    
+
+
+       
+             <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="باندا 4.png" alt="Sham El-Nessim Hypermarket Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Sham El-Nessim Hypermarket Campaign</h3>
+            <span class="social-type">Seasonal Retail Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="bandaaa.png" alt="Sham El-Nessim Hypermarket Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Sham El-Nessim Hypermarket Campaign</h3>
+            <span class="social-type">Seasonal Retail Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+ 
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="بنده.png" alt="Sham El-Nessim Hypermarket Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Sham El-Nessim Hypermarket Campaign</h3>
+            <span class="social-type">Seasonal Retail Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+             <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عطر.jpeg" alt="Perfume Brand Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Perfume Brand Campaign</h3>
+            <span class="social-type">Fragrance Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+         
+
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="بنده طبيعي.png" alt="Panda Hypermarket Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Panda Hypermarket Campaign</h3>
+            <span class="social-type">Retail Social Media Designn</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+    
+  
+        <!-- <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="5.png" alt="Laptop Store Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Laptop Store Campaign</h3>
+            <span class="social-type">Tech Product Advertising</span>
+            <div class="social-icons-row">
+             <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="we.png" alt="Restaurant Food Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Restaurant Food Campaign</h3>
+            <span class="social-type">Food Social Media Design</span>
+            <div class="social-icons-row">
+           <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عرض ال 140.png" alt="Restaurant Food Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Restaurant Food Campaign</h3>
+            <span class="social-type">Food Social Media Design</span>
+            <div class="social-icons-row">
+           <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+        
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="الشرقاوي-3.png" alt="Restaurant Food Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Restaurant Food Campaign</h3>
+            <span class="social-type">Food Social Media Design</span>
+            <div class="social-icons-row">
+           <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="الشرقاوي.png" alt="Restaurant Food Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Restaurant Food Campaign</h3>
+            <span class="social-type">Food Social Media Design</span>
+            <div class="social-icons-row">
+           <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="abo.jpeg" alt="Restaurant Reopening After Renovation" />
+          </div>
+          <div class="social-info">
+            <h3>Restaurant Reopening After Renovation</h3>
+            <span class="social-type">Food Advertising Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+
+       <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="العوضي تهناة العيد.png" alt="Eid Al-Adha Campaign" />
+          
+          </div>
+          <div class="social-info">
+            <h3>Eid Al-Adha Campaign for Orthopedic Clinic</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+   <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عيد اميرة.png" alt="Eid Al-Adha Campaign for OB-GYN Clinic" />
+          </div>
+          <div class="social-info">
+            <h3>Eid Al-Adha Campaign for OB-GYN Clinic</h3>
+            <span class="social-type">Medical Social Media Design</span>
+
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+             </div>
+
+            <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="د-ابراهيم-مبروك-2.png-تعديل.png" alt="Eye Clinic Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Eye Clinic Campaign</h3>
+            <span class="social-type">Ophthalmology Social Media</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+ <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="د ابراهيم مبروك.png" alt="Sham El-Nessim Greeting for Eye Clinic" />
+          </div>
+          <div class="social-info">
+            <h3>Sham El-Nessim Greeting for Eye Clinic</h3>
+            <span class="social-type">Ophthalmology Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="9.png" alt="Dermatology Clinic Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Dermatology Clinic Campaign</h3>
+            <span class="social-type">Beauty & Medical Design</span>
+            <div class="social-icons-row">
+            <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="العوضي-1.png" alt="Orthopedic Clinic Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Orthopedic Clinic Campaign</h3>
+            <span class="social-type">Healthcare Advertising</span>
+            <div class="social-icons-row">
+           <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+       <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="3.png" alt="Eid Al-Adha Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Eid Al-Adha Campaign</h3>
+            <span class="social-type">Social Media Design</span>
+            <div class="social-icons-row">
+              <a href="#" aria-label="mooooore">show more</a>
+            
+            </div>
+          </div>
+        </div>
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="العوضي 1.png" alt="Orthopedic Sham El-Nessim Greeting" />
+          </div>
+          <div class="social-info">
+            <h3>Orthopedic Sham El-Nessim Greeting</h3>
+            <span class="social-type">Medical Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+  
+
+     
+   
+ 
+  
+        <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="الفضالي 1.png" alt="Kitchen Brand Sham El-Nessim Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Kitchen Brand Sham El-Nessim Campaign</h3>
+            <span class="social-type">Home & Interior Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+  
+
+  <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عيد.jpg" alt="Eid Al-Adha Greeting for Laptop Store" />
+          </div>
+          <div class="social-info">
+            <h3>Eid Al-Adha Greeting for Laptop Store </h3>
+            <span class="social-type">Tech Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+ 
+  <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عيد الفريد .png" alt="Eid Al-Adha Greeting for Laptop Store" />
+          </div>
+          <div class="social-info">
+            <h3>Eid Al-Adha Greeting for factory </h3>
+            <span class="social-type">Tech Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+ 
+
+  <div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عرفة-كمبيو.png" alt="Arafah Day Greeting for Laptop Store" />
+          </div>
+          <div class="social-info">
+            <h3>Arafah Day Greeting for Laptop Store</h3>
+            <span class="social-type">Tech Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="كرموز 1.png" alt=" Seafood Shop Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Seafood Shop Campaign</h3>
+            <span class="social-type">Food Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+   
+ 
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="سيتي لاب.png" alt="Medical Lab Campaign" />
+          </div>
+          <div class="social-info">
+            <h3>Medical Lab Campaign</h3>
+            <span class="social-type">Healthcare Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="الرحمة غلق.png" alt="Hypermarket Opening Hours" />
+          </div>
+          <div class="social-info">
+            <h3>Hypermarket Opening Hours</h3>
+            <span class="social-type">Retail Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+<!-- 
+<div class="social-card reveal">
+          <div class="social-img-wrap">
+            <img src="عرفة-كمبيو.png" alt="Arafah Day Greeting for Laptop Store" />
+          </div>
+          <div class="social-info">
+            <h3>Arafah Day Greeting for Laptop Store</h3>
+            <span class="social-type">Tech Social Media Design</span>
+            <div class="social-icons-row">
+          <a href="#" aria-label="mooooore">show more</a>
+            </div>
+          </div>
+        </div>
+
+ -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Works Bento Grid -->
+  <!-- <section class="works" id="works">
+    <div class="container">
+      <div class="section-label reveal">PORTFOLIO</div>
+      <h2 class="section-title reveal">Selected Works</h2>
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="posters">Posters</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="product">Product Ads</button>
+        <button class="filter-btn" data-filter="ai">AI Editing</button>
+      </div>
+      <div class="bento-grid">
+        <div class="bento-card bento-large" data-cat="posters">
+          <img src="https://placehold.co/700x500/111111/C6FF00?text=Featured+Poster" alt="Featured" />
+          <div class="bento-overlay">
+            <span class="bento-tag">Poster Design</span>
+            <h3>Visual Campaign Identity</h3>
+            <p>Bold neon poster with chrome typography and dynamic composition.</p>
+            <a href="#" class="bento-btn">View Project</a>
+          </div>
+        </div>
+        <div class="bento-card bento-tall" data-cat="social">
+          <img src="https://placehold.co/350x500/111111/9DFF00?text=Social+Design" alt="Social" />
+          <div class="bento-overlay">
+            <span class="bento-tag">Social Media</span>
+            <h3>Brand Campaign</h3>
+            <p>Scroll-stopping social content.</p>
+            <a href="#" class="bento-btn">View Project</a>
+          </div>
+        </div>
+        <div class="bento-card bento-small" data-cat="branding">
+          <img src="https://placehold.co/350x240/111111/C6FF00?text=Branding" alt="Branding" />
+          <div class="bento-overlay">
+            <span class="bento-tag">Branding</span>
+            <h3>Visual Identity</h3>
+            <a href="#" class="bento-btn">View Project</a>
+          </div>
+        </div>
+        <div class="bento-card bento-small" data-cat="product">
+          <img src="https://placehold.co/350x240/111111/9DFF00?text=Product+Ad" alt="Product Ad" />
+          <div class="bento-overlay">
+            <span class="bento-tag">Product Ad</span>
+            <h3>Premium Product Visual</h3>
+            <a href="#" class="bento-btn">View Project</a>
+          </div>
+        </div>
+        <div class="bento-card bento-wide" data-cat="ai">
+          <img src="https://placehold.co/700x300/111111/C6FF00?text=AI+Enhanced+Visual" alt="AI Visual" />
+          <div class="bento-overlay">
+            <span class="bento-tag">AI Editing</span>
+            <h3>AI Enhanced Visual Transformation</h3>
+            <p>Photo manipulation with AI-assisted background and lighting.</p>
+            <a href="#" class="bento-btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+   <!-- Before / After -->
+  <!-- Before / After -->
+<section class="before-after" id="beforeafter">
+  <div class="container">
+    <div class="section-label reveal">TRANSFORMATION</div>
+    <h2 class="section-title reveal">Before &amp; After Magic</h2>
+    <p class="ba-subtitle reveal">
+      I don't just edit visuals — I transform them into selling designs.
+    </p>
+
+    <div class="ba-grid">
+
+      <div class="ba-card reveal">
+        <div class="ba-slider">
+          <img class="ba-img ba-before-img" src="2.jpg" alt="Before Design">
+          <img class="ba-img ba-after-img" src="1.png" alt="After Design">
+
+          <span class="ba-label ba-label-before">BEFORE</span>
+          <span class="ba-label ba-label-after">AFTER</span>
+
+          <div class="ba-line"></div>
+          <button class="ba-handle" type="button" aria-label="Drag to compare">↔</button>
+        </div>
+      </div>
+
+      <div class="ba-card reveal">
+        <div class="ba-slider">
+          <img class="ba-img ba-before-img" src="ماتيريل الفريد.jpeg" alt="Before Design">
+          <img class="ba-img ba-after-img" src="الفريد_.png" alt="After Design">
+
+          <span class="ba-label ba-label-before">BEFORE</span>
+          <span class="ba-label ba-label-after">AFTER</span>
+
+          <div class="ba-line"></div>
+          <button class="ba-handle" type="button" aria-label="Drag to compare">↔</button>
+        </div>
+      </div>
+
+      <div class="ba-card reveal">
+        <div class="ba-slider">
+          <img class="ba-img ba-before-img" src="DSC_0915.JPG" alt="Before Design">
+          <img class="ba-img ba-after-img" src="30.png" alt="After Design">
+
+          <span class="ba-label ba-label-before">BEFORE</span>
+          <span class="ba-label ba-label-after">AFTER</span>
+
+          <div class="ba-line"></div>
+          <button class="ba-handle" type="button" aria-label="Drag to compare">↔</button>
+        </div>
+      </div>
+
+      <div class="ba-card reveal">
+        <div class="ba-slider">
+          <img class="ba-img ba-before-img" src="DSC_0866.JPG" alt="Before Design">
+          <img class="ba-img ba-after-img" src="hgkk.png" alt="After Design">
+
+          <span class="ba-label ba-label-before">BEFORE</span>
+          <span class="ba-label ba-label-after">AFTER</span>
+
+          <div class="ba-line"></div>
+          <button class="ba-handle" type="button" aria-label="Drag to compare">↔</button>
+        </div>
+      </div>
+
+      <div class="ba-card reveal">
+        <div class="ba-slider">
+          <img class="ba-img ba-before-img" src="DSC_0942.JPG" alt="Before Design">
+          <img class="ba-img ba-after-img" src="تعديل النني 7.png" alt="After Design">
+
+          <span class="ba-label ba-label-before">BEFORE</span>
+          <span class="ba-label ba-label-after">AFTER</span>
+
+          <div class="ba-line"></div>
+          <button class="ba-handle" type="button" aria-label="Drag to compare">↔</button>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+  <!-- Case Studies -->
+  <!-- الكود الحالي 
+  <section class="cases" id="cases">
+    <div class="container">
+      <div class="section-label reveal">CASE STUDIES</div>
+      <h2 class="section-title reveal">From Idea To Impact</h2>
+      <div class="case-grid">
+اخلر الكود الحالي  -->
+        <!-- <div class="case-card reveal">
+          <div class="case-img">
+            <img src="https://placehold.co/600x320/111111/C6FF00?text=Case+01" alt="Case Study 1" />
+          </div>
+          <div class="case-body">
+            <div class="case-num">01</div>
+            <h3>Poster Campaign Identity</h3>
+            <div class="case-row">
+              <div class="case-col">
+                <h4>Challenge</h4>
+                <p>Create a strong visual poster that grabs attention quickly.</p>
+              </div>
+              <div class="case-col">
+                <h4>Solution</h4>
+                <p>Bold typography, neon contrast, chrome accents, and clean composition.</p>
+              </div>
+              <div class="case-col">
+                <h4>Result</h4>
+                <p>A memorable poster with strong visual hierarchy.</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+<!-- البديل -->
+
+<!-- دا الكود الحالي اللي كنا بنتعامل بيه  -->
+<!-- <div class="case-card reveal">
+  <div class="case-img">
+    <img src="case 1.png" />
+  </div>
+
+  <div class="case-body">
+    <div class="case-top">
+      <div>
+        <div class="case-num">01</div>
+        <div class="case-meta">Brand Identity / Social Media Design</div>
+        <h3>Al Rahma Hypermarket</h3>
+      </div>
+
+      <a href="#" class="case-link">View Project</a>
+    </div>
+
+    <p class="case-desc">
+      A complete branding project created from scratch for Al Rahma Hypermarket,
+      covering the logo, Facebook profile, cover design, and social media visual system.
+    </p>
+
+    <div class="case-row">
+      <div class="case-col">
+        <h4>Challenge</h4>
+        <p>
+          Build a clear and trustworthy identity that helps the brand stand out
+          in a competitive retail market.
+        </p>
+      </div>
+
+      <div class="case-col">
+        <h4>Solution</h4>
+        <p>
+          Designed a complete visual system with consistent colors, typography,
+          layouts, Facebook cover, profile picture, and social media templates.
+        </p>
+      </div>
+
+      <div class="case-col">
+        <h4>Impact</h4>
+        <p>
+          Created a cleaner, more professional brand presence ready for online
+          marketing and customer engagement.
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- اخر الكود الحالي  -->
+<!-- نهاية  -->
+ <!-- القديم 2 -->
+        <!-- <div class="case-card reveal">
+          <div class="case-img">
+            <img src="https://placehold.co/600x320/111111/9DFF00?text=Case+02" alt="Case Study 2" />
+          </div>
+          <div class="case-body">
+            <div class="case-num">02</div>
+            <h3>Social Media Brand Campaign</h3>
+            <div class="case-row">
+              <div class="case-col">
+                <h4>Challenge</h4>
+                <p>Make the brand stand out in a crowded feed.</p>
+              </div>
+              <div class="case-col">
+                <h4>Solution</h4>
+                <p>Scroll-stopping layouts, strong CTA, and consistent visual direction.</p>
+              </div>
+              <div class="case-col">
+                <h4>Result</h4>
+                <p>A professional and engaging social media presence.</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- دا الكود الحالي بردو
+<div class="case-card reveal">
+  <div class="case-img">
+    <img src="case 2.png" alt="Dermatology and Aesthetics Clinic Social Media Branding" />
+  </div>
+
+  <div class="case-body">
+    <div class="case-top">
+      <div>
+        <div class="case-num">02</div>
+        <div class="case-meta">Medical Branding / Social Media Design</div>
+        <h3>Dermatology & Aesthetics Clinic</h3>
+      </div>
+
+      <a href="#" class="case-link">View Project</a>
+    </div>
+
+    <p class="case-desc">
+      A clean and elegant social media identity created for a dermatology and aesthetics doctor,
+      designed to communicate skincare tips, medical trust, and beauty care in a simple,
+      professional, and visually calm style.
+    </p>
+
+    <div class="case-row">
+      <div class="case-col">
+        <h4>Challenge</h4>
+        <p>
+          Create a trustworthy and premium visual direction for a medical beauty brand,
+          while keeping the content simple, clear, and easy for patients to understand.
+        </p>
+      </div>
+
+      <div class="case-col">
+        <h4>Solution</h4>
+        <p>
+          Designed a consistent social media system including educational skincare posts,
+          beauty tips, service announcements, contact layouts, and a soft visual identity
+          suitable for a dermatology and aesthetics clinic.
+        </p>
+      </div>
+
+      <div class="case-col">
+        <h4>Impact</h4>
+        <p>
+          Built a professional online presence that makes the clinic look more credible,
+          organized, and appealing to patients interested in skincare and cosmetic treatments.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+اخر الكود الحالي -->
+        <!-- <div class="case-card reveal">
+          <div class="case-img">
+            <img src="https://placehold.co/600x320/111111/C6FF00?text=Case+03" alt="Case Study 3" />
+          </div>
+          <div class="case-body">
+            <div class="case-num">03</div>
+            <h3>AI Enhanced Product Visual</h3>
+            <div class="case-row">
+              <div class="case-col">
+                <h4>Challenge</h4>
+                <p>Transform a simple image into a premium commercial visual.</p>
+              </div>
+              <div class="case-col">
+                <h4>Solution</h4>
+                <p>AI-assisted background editing, lighting enhancement, and polished composition.</p>
+              </div>
+              <div class="case-col">
+                <h4>Result</h4>
+                <p>A high-end advertising visual ready for marketing.</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+<!-- الجديد 3 -->
+ <!-- الكود الحالي
+ <div class="case-card reveal">
+  <div class="case-img">
+    <img src="case 3.png" alt="Restaurant Social Media Branding Project" />
+  </div>
+
+  <div class="case-body">
+    <div class="case-top">
+      <div>
+        <div class="case-num">03</div>
+        <div class="case-meta">Restaurant Branding / Food Social Media Design</div>
+        <h3>Food Restaurant Campaign</h3>
+      </div>
+
+      <a href="#" class="case-link">View Project</a>
+    </div>
+
+    <p class="case-desc">
+      A bold and appetizing social media campaign created for a food restaurant,
+      designed to highlight the meals, strengthen the brand image, and make the
+      content more attractive, memorable, and scroll-stopping.
+    </p>
+
+    <div class="case-row">
+      <div class="case-col">
+        <h4>Challenge</h4>
+        <p>
+          Create a strong visual direction for a restaurant brand in a crowded
+          food market, while making the meals look delicious, clear, and instantly
+          appealing to customers.
+        </p>
+      </div>
+
+      <div class="case-col">
+        <h4>Solution</h4>
+        <p>
+          Designed a complete social media style using strong food photography,
+          bold typography, warm colors, creative slogans, and clean layouts that
+          keep the focus on the product.
+        </p>
+      </div>
+
+      <div class="case-col">
+        <h4>Impact</h4>
+        <p>
+          Created a more professional and mouth-watering online presence that helps
+          the restaurant stand out, attract attention, and present its food in a
+          more premium way.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+اخر الكود الحالي 
+  -->
+
+  <!-- Creative Toolkit -->
+  <section class="toolkit" id="toolkit">
+    <div class="container">
+      <div class="section-label reveal">ARSENAL</div>
+      <h2 class="section-title reveal">Creative Toolkit</h2>
+      <div class="toolkit-layout">
+        <div class="skills-cloud reveal">
+          <span class="skill-chip">Photoshop</span>
+          <span class="skill-chip">Illustrator</span>
+          <span class="skill-chip">Canva</span>
+          <span class="skill-chip">Typography</span>
+          <span class="skill-chip">Layout Design</span>
+          <span class="skill-chip">Color Theory</span>
+          <span class="skill-chip">Social Media Ads</span>
+          <span class="skill-chip">Branding</span>
+          <span class="skill-chip">Poster Design</span>
+          <span class="skill-chip">AI Editing</span>
+          <span class="skill-chip">Creative Direction</span>
+        </div>
+        <div class="tools-card reveal">
+          <h4>Main Tools</h4>
+          <div class="tool-badges">
+            <div class="tool-badge"> Photoshop</div>
+            <div class="tool-badge">Illustrator</div>
+            <div class="tool-badge">AI TOOLS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Timeline -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-label reveal">WORKFLOW</div>
+      <h2 class="section-title reveal">How I Turn Ideas Into Visuals</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="tl-num">01</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Discover</h3>
+            <p>I understand the brand, audience, goal, and visual direction.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-num">02</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Concept</h3>
+            <p>I build a creative idea and moodboard.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-num">03</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Design</h3>
+            <p>I create a bold, clean, professional layout.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-num">04</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Enhance</h3>
+            <p>I improve lighting, typography, colors, and details.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-num">05</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Deliver</h3>
+            <p>I export final files ready for social media and campaigns.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <!-- <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-label reveal">REVIEWS</div>
+      <h2 class="section-title reveal">What Clients Say</h2>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Yousef turns simple ideas into professional, eye-catching visuals."</p>
+          <div class="testi-author">— Client A</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p>"His poster designs are bold, clean, and full of energy."</p>
+          <div class="testi-author">— Client B</div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p>"The social media designs look modern, premium, and highly engaging."</p>
+          <div class="testi-author">— Client C</div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="contact-blob"></div>
+        <div class="section-label">CONTACT</div>
+        <h2 class="contact-title">Let's Build Something<br/><span class="neon">Futuristic Together</span></h2>
+        <p class="contact-sub">Need a poster, social media campaign, brand identity, or AI-enhanced visual? Let's create a design that stands out.</p>
+        <div class="contact-btns">
+          <!-- Replace href with actual WhatsApp/email links -->
+          <a href="https://wa.me/201119630800" class="btn-primary btn-whatsapp" target="_blank">💬 WhatsApp Me</a>
+          <a href="@email.com" class="btn-outline">✉ Send Email</a>
+          <a href="https://www.instagram.com/yousef_elgendy11?igsh=MWVlZ21wOG84b3hsMA==" class="btn-ghost">📸 Instagram</a>
+          <a href="#" class="btn-ghost" target="_blank">🎨 Behance</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">Yousef ElGendy</span>
+      <span class="footer-copy">Designed by Yousef ElGendy — Graphic Designer © 2026</span>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/yousef_elgendy11?igsh=MWVlZ21wOG84b3hsMA==" aria-label="Instagram" target="_blank">Instagram</a>
+        <a href= "#" aria-label="Behance" target="_blank">Behance</a>
+        <a href="https://wa.me/201119630800 " aria-label="WhatsApp" target="_blank" >WhatsApp  </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
